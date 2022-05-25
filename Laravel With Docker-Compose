@@ -188,6 +188,9 @@ docker-compose exec app ls -l
 - After that, run composer install to install application dependencies.
 docker-compose exec app composer install
 
+Troubleshoot: if you got error, you can follow the URL:
+(https://stackoverflow.com/questions/61177995/laravel-packagemanifest-php-undefined-index-name)
+
 - Generate a unique application key with the artisan.
 docker-compose exec app php artisan key:generate
 
